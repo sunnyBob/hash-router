@@ -1,0 +1,23 @@
+@import './reset.css';
+
+.container {
+  display: flex;
+  font-size: 1rem;
+}
+
+ul.menu {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 2rem);
+  width: 15%;
+  padding: 1rem 1.5rem;
+  background-color: rgb(192, 201, 201);
+}
+
+ul.menu li {
+  margin-bottom: 1rem;
+}
+
+#root {
+  flex-grow: 1;
+}

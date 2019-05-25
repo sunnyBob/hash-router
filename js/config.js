@@ -1,5 +1,5 @@
 requirejs.config({
-	baseUrl: './',
+  baseUrl: './',
   paths: {
     'mustache': 'libs/mustache.min',
     'page1Tmpl': 'templates/page1.html',
